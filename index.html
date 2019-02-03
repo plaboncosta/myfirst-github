@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,11 +8,28 @@
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <!-- Personal Info -->
-    <div class="personal-info">
-        <h2>Plabon Costa</h2>
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ea nemo blanditiis, quas, magnam voluptas excepturi explicabo eos officia, tempore unde earum beatae quisquam magni quidem architecto molestias illum sit numquam!</p>
+    <div class="oop-class">
+        <div class="title">
+            <h2>FIRST CLASS OOP</h2>
+        </div>
+        <div class="description">
+            <p>class Person <br>
+                { <br>
+                    <span class="spacer"></span> public $name = 'Plabon'; <br>
+                    <span class="spacer"></span> public $title = 'Costa'; <br>
+                    <span class="spacer"></span> public function fullName($name) <br>
+                    <span class="spacer"></span> { <br>
+                        <span class="spacer"></span> <span class="spacer"></span> echo "Hello, everyone!"; <br>
+                        <span class="spacer"></span> <span class="spacer"></span> return 'My name is ' . $name; <br>
+                    <span class="spacer"></span> } <br>
+                } <br>
+
+                $obj1 = new Person(); <br>
+                echo $obj1->fullName('Plabon Costa');</p>
+        </div>
     </div>
 
     <!-- Profession -->
@@ -20,7 +38,11 @@
             <h2>Laravel Web Application Developer</h2>
         </div>
         <div class="description">
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae at tempore itaque exercitationem error enim porro expedita nobis libero, delectus quibusdam quos molestiae labore saepe! Numquam error eos impedit fugiat?Lorem ipsum dolor sit amet consectetur adipisicing elit. In sunt delectus eum, adipisci iure necessitatibus aliquam voluptas sit fugiat, rerum eligendi culpa officiis at repudiandae praesentium alias. Porro, corrupti blanditiis!</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae at tempore itaque exercitationem
+                error enim porro expedita nobis libero, delectus quibusdam quos molestiae labore saepe! Numquam error
+                eos impedit fugiat?Lorem ipsum dolor sit amet consectetur adipisicing elit. In sunt delectus eum,
+                adipisci iure necessitatibus aliquam voluptas sit fugiat, rerum eligendi culpa officiis at repudiandae
+                praesentium alias. Porro, corrupti blanditiis!</p>
         </div>
     </div>
 
@@ -49,6 +71,7 @@
             </ul>
         </div>
     </div>
-    
+
 </body>
+
 </html>

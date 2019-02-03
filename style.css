@@ -4,7 +4,7 @@
     background-color: #9fe79c;
 }
 
-.personal-info, .profession, .git-command{
+.oop-class, .profession, .git-command{
     margin: 5% auto 0%;
     background-color: #eee;
     width: 50%;
@@ -26,4 +26,7 @@ p, .git-command ul li{
 }
 .git-command ul li span{
     background-color: #eee;
+}
+.spacer{
+    margin-left: 20px;
 }
