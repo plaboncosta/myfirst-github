@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.personal-info{
+    margin: 5% auto 0%;
+    background-color: #eee;
+    width: 50%;
+    padding: 2%;
+    font-family: cursive;
+}
+.personal-info h2{
+    font-size: 30px;
+    font-weight: bold;
+}
+.personal-info p{
+    font-size: 17px;
+    padding-top: 5px;
+}
