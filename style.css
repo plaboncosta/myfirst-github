@@ -4,7 +4,7 @@
     background-color: #9fe79c;
 }
 
-.personal-info, .profession{
+.personal-info, .profession, .git-command{
     margin: 5% auto 0%;
     background-color: #eee;
     width: 50%;
@@ -16,11 +16,14 @@ h2{
     font-weight: bold;
     background-color: #eee;
 }
-p{
+p, .git-command ul li{
     font-size: 17px;
     padding-top: 5px;
     background-color: #eee;
 }
-.spacer{
-    padding: 100px;
+.git-command ul{
+    list-style: none;
+}
+.git-command ul li span{
+    background-color: #eee;
 }
