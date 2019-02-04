@@ -22,10 +22,14 @@
             <br><br>
 
 
+
+
             <!-- Second Lesson(Change Attribute) -->
             <button class="btn btn-danger" onclick="document.getElementById('image').src = 'assets/images/3.jpg'">Change
                 image</button>
             <img id="image" src="assets/images/1.jpg" alt="1.jpg" class="img-responsive img-thumbnail">
+
+
 
             <!-- Third lesson(Change Css Atrribute) -->
             <br><br>
@@ -34,9 +38,20 @@
             <button class="btn btn-danger mb-2" onclick="document.getElementById('name').style.display = 'none' ">Hide Name</button><br>
             <button class="btn btn-info" onclick="document.getElementById('name').style.display = 'block' ">Show Name</button>
             <h3 id="name">My name is Plabon Joseph</h3>
+
+
+            <!-- Fourth Lesson(Calling onclick function) -->
+            <br><br>
+            <button class="btn btn-danger" onclick="answer()">Give Answer</button>
+            <span id="answer">Are you Plabon?</span>
+            <br><br><br>
         </div>
     </div>
 
+
+
+    <!-- Custom JS -->
+    <script src="custom.js"></script>
 </body>
 
 </html>
