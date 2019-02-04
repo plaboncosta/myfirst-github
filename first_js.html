@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/js/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="first_js_wrapper">
+        <div class="container">
+            <!-- 04-02-2019 -->
+            <!-- First lesson(Get time) -->
+            <br><br>
+            <button class="btn btn-info" onclick="document.getElementById('time').innerHTML = Date() ">Get Time</button>
+            <br>
+            <span id="time"></span>
+            <br><br>
+
+
+            <!-- Second Lesson(Change Attribute) -->
+            <button class="btn btn-danger" onclick="document.getElementById('image').src = 'assets/images/3.jpg'">Change
+                image</button>
+            <img id="image" src="assets/images/1.jpg" alt="1.jpg" class="img-responsive img-thumbnail">
+
+            <!-- Third lesson(Change Css Atrribute) -->
+            <br><br>
+            <button class="btn btn-success mb-2" onclick="document.getElementById('name').style.color = 'green' ">Change Color</button><br>
+            <button class="btn btn-primary mb-2" onclick="document.getElementById('name').style.fontFamily = 'verdana' ">Change Font</button><br>
+            <button class="btn btn-danger mb-2" onclick="document.getElementById('name').style.display = 'none' ">Hide Name</button><br>
+            <button class="btn btn-info" onclick="document.getElementById('name').style.display = 'block' ">Show Name</button>
+            <h3 id="name">My name is Plabon Joseph</h3>
+        </div>
+    </div>
+
+</body>
+
+</html>

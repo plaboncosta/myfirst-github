@@ -4,6 +4,8 @@
     background-color: #9fe79c;
 }
 
+
+/* Index.html Css */
 .oop-class, .profession, .git-command{
     margin: 5% auto 0%;
     background-color: #eee;
@@ -29,4 +31,18 @@ p, .git-command ul li{
 }
 .spacer{
     margin-left: 20px;
+}
+
+
+/* First_js.html */
+.first_js_wrapper{
+    font-family: cursive;
+}
+img{
+    height: 260px;
+    width: 220px;
+}
+.name{
+    color: blue;
+    transition: 1s;
 }
