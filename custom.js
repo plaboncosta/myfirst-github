@@ -42,3 +42,17 @@ function myName()
 // console.log(religionName); (You can not aceess this because this variable is called inside the function)
 
 
+
+// Creating Object and array and calling theme
+var myDetailsTitle = ['name', 'title', 'age', 'profession'];
+var myDetails = {
+    name: 'Plabon',
+    title: 'Joseph',
+    age: 21,
+    profession: 'Web application developer',
+    fullName: function(){
+        return this.name + ' ' + this.title;
+    },
+};
+document.getElementById('myDetails').innerHTML = 'My' + ' ' + myDetailsTitle[0] + ' is ' + myDetails.name;
+console.log(typeof(name));
